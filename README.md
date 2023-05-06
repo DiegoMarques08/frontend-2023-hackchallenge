@@ -22,9 +22,9 @@ Backend Repo: https://github.com/tjvignos/2023-hack-challenge
 
 # Screenshots of App:
 
-<img src="https://user-images.githubusercontent.com/126121531/236592778-b27b9fe4-4d69-4ef2-a5a6-f1403b038605.jpeg" width "200" height="400">
-<img src="https://user-images.githubusercontent.com/126121531/236592779-ef337bf0-1208-49ad-943c-9cbcc0fa5680.jpeg" width "200" height="400">
-<img src="https://user-images.githubusercontent.com/126121531/236592780-5da743b2-a46e-4e86-9bd4-98d5750c66db.jpeg" width "200" height="400">
-<img src="https://user-images.githubusercontent.com/126121531/236592781-57594c2b-ada2-4844-aba5-06b850c71e50.jpeg" width "200" height="400">
-<img src="https://user-images.githubusercontent.com/126121531/236592782-05907f9d-d466-4ab3-a261-aed5406bfc73.jpeg" width "200" height="400">
-<img src="https://user-images.githubusercontent.com/126121531/236592783-a6ba6607-e9c7-40e8-a588-6d37ad7edbcb.jpeg" width "200" height="400">
+<img src="https://user-images.githubusercontent.com/126121531/236592778-b27b9fe4-4d69-4ef2-a5a6-f1403b038605.jpeg" width ="200" height="400">
+<img src="https://user-images.githubusercontent.com/126121531/236592779-ef337bf0-1208-49ad-943c-9cbcc0fa5680.jpeg" width ="200" height="400">
+<img src="https://user-images.githubusercontent.com/126121531/236592780-5da743b2-a46e-4e86-9bd4-98d5750c66db.jpeg" width ="200" height="400">
+<img src="https://user-images.githubusercontent.com/126121531/236592781-57594c2b-ada2-4844-aba5-06b850c71e50.jpeg" width ="200" height="400">
+<img src="https://user-images.githubusercontent.com/126121531/236592782-05907f9d-d466-4ab3-a261-aed5406bfc73.jpeg" width ="200" height="400">
+<img src="https://user-images.githubusercontent.com/126121531/236592783-a6ba6607-e9c7-40e8-a588-6d37ad7edbcb.jpeg" width ="200" height="400">
