@@ -23,12 +23,10 @@
 		55C75BD42A05AA6700A56328 /* CustomFilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C75BD32A05AA6700A56328 /* CustomFilterCollectionViewCell.swift */; };
 		55C75BD62A05AA7F00A56328 /* Outfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C75BD52A05AA7F00A56328 /* Outfit.swift */; };
 		55C75BD82A05AA9F00A56328 /* Clothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C75BD72A05AA9F00A56328 /* Clothing.swift */; };
-		55C75BDA2A05AABE00A56328 /* Closet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C75BD92A05AABE00A56328 /* Closet.swift */; };
 		55C75BDC2A05AAE600A56328 /* CreateOutfitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C75BDB2A05AAE600A56328 /* CreateOutfitViewController.swift */; };
 		55C75BDE2A05AB1B00A56328 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C75BDD2A05AB1B00A56328 /* CustomCollectionViewCell.swift */; };
 		55C75BE02A05AB4000A56328 /* ViewOutfitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C75BDF2A05AB4000A56328 /* ViewOutfitViewController.swift */; };
 		55C75BE22A05ABA900A56328 /* CustomViewOutfitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C75BE12A05ABA900A56328 /* CustomViewOutfitCollectionViewCell.swift */; };
-		55C75BE42A05ABC700A56328 /* EditOutfitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C75BE32A05ABC700A56328 /* EditOutfitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,12 +48,10 @@
 		55C75BD32A05AA6700A56328 /* CustomFilterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFilterCollectionViewCell.swift; sourceTree = "<group>"; };
 		55C75BD52A05AA7F00A56328 /* Outfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outfit.swift; sourceTree = "<group>"; };
 		55C75BD72A05AA9F00A56328 /* Clothing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clothing.swift; sourceTree = "<group>"; };
-		55C75BD92A05AABE00A56328 /* Closet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closet.swift; sourceTree = "<group>"; };
 		55C75BDB2A05AAE600A56328 /* CreateOutfitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOutfitViewController.swift; sourceTree = "<group>"; };
 		55C75BDD2A05AB1B00A56328 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		55C75BDF2A05AB4000A56328 /* ViewOutfitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOutfitViewController.swift; sourceTree = "<group>"; };
 		55C75BE12A05ABA900A56328 /* CustomViewOutfitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewOutfitCollectionViewCell.swift; sourceTree = "<group>"; };
-		55C75BE32A05ABC700A56328 /* EditOutfitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditOutfitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,14 +95,12 @@
 				55C75BCD2A05AA0500A56328 /* AddClothingViewController.swift */,
 				55C75BD12A05AA3800A56328 /* PlaceholderAddChlothing.swift */,
 				55C75BD32A05AA6700A56328 /* CustomFilterCollectionViewCell.swift */,
-				55C75BD52A05AA7F00A56328 /* Outfit.swift */,
-				55C75BD72A05AA9F00A56328 /* Clothing.swift */,
-				55C75BD92A05AABE00A56328 /* Closet.swift */,
 				55C75BDB2A05AAE600A56328 /* CreateOutfitViewController.swift */,
 				55C75BDD2A05AB1B00A56328 /* CustomCollectionViewCell.swift */,
 				55C75BDF2A05AB4000A56328 /* ViewOutfitViewController.swift */,
 				55C75BE12A05ABA900A56328 /* CustomViewOutfitCollectionViewCell.swift */,
-				55C75BE32A05ABC700A56328 /* EditOutfitViewController.swift */,
+				55C75BD52A05AA7F00A56328 /* Outfit.swift */,
+				55C75BD72A05AA9F00A56328 /* Clothing.swift */,
 				55C75BB52A05A52C00A56328 /* Main.storyboard */,
 				55C75BB82A05A52D00A56328 /* Assets.xcassets */,
 				55C75BBA2A05A52D00A56328 /* LaunchScreen.storyboard */,
@@ -195,7 +189,6 @@
 				55C75BB42A05A52C00A56328 /* ViewController.swift in Sources */,
 				55C75BD42A05AA6700A56328 /* CustomFilterCollectionViewCell.swift in Sources */,
 				55C75BB02A05A52C00A56328 /* AppDelegate.swift in Sources */,
-				55C75BE42A05ABC700A56328 /* EditOutfitViewController.swift in Sources */,
 				55C75BB22A05A52C00A56328 /* SceneDelegate.swift in Sources */,
 				55C75BDC2A05AAE600A56328 /* CreateOutfitViewController.swift in Sources */,
 				55C75BDE2A05AB1B00A56328 /* CustomCollectionViewCell.swift in Sources */,
@@ -203,7 +196,6 @@
 				55C75BCC2A05A9E500A56328 /* NavViewController.swift in Sources */,
 				55C75BE02A05AB4000A56328 /* ViewOutfitViewController.swift in Sources */,
 				55C75BCA2A05A97700A56328 /* Response.swift in Sources */,
-				55C75BDA2A05AABE00A56328 /* Closet.swift in Sources */,
 				55C75BE22A05ABA900A56328 /* CustomViewOutfitCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -72,7 +72,6 @@ class ViewController: UIViewController {
         
         NSLayoutConstraint.activate([
             loginButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-//            loginButton.centerYAnchor.constraint(equalTo: nameLabel.bottomAnchor, constant: 100),
             loginButton.topAnchor.constraint(equalTo: textLabel.bottomAnchor, constant: width * 2),
             loginButton.widthAnchor.constraint(equalToConstant: width),
             loginButton.heightAnchor.constraint(equalToConstant: height)

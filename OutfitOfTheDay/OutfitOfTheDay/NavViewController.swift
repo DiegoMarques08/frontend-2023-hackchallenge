@@ -192,9 +192,6 @@ class NavViewController: UIViewController {
     }
     
     @objc func clickSignOut(sender: UIButton) {
-        
-//        NEED TO DO SIGN OUT STUFF WITH POSTMAN HERE
-        
         self.navigationController?.pushViewController(ViewController(), animated: true)
     }
 }

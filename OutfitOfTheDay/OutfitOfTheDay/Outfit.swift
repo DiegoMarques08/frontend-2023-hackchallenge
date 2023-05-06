@@ -17,8 +17,6 @@ class Outfit {
     var bottomPic: UIImage
     var shoesPic: UIImage
 
-//    var filters: [String]
-
     init(name: String, headPic: UIImage, topPic: UIImage, bottomPic: UIImage, shoesPic: UIImage) {
         self.name = name
         self.headPic = headPic

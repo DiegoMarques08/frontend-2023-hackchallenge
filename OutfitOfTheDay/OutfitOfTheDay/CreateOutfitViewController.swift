@@ -244,9 +244,6 @@ class CreateOutfitViewController: UIViewController, UICollectionViewDelegate {
                         else {
                             print("Creating outfit failure")
                         }
-//                        var newOutfit = Outfit(name: "", headPic: head[headvisibleCellIndex], topPic: topvisibleCellIndex, bottomPic: bottomvisibleCellIndex, shoesPic: shoesvisibleCellIndex)
-                        
-//                        GETS ALL THE VISBILE PHOTOS TO MAKE AN OUTFIT
                     }
                 }
             }

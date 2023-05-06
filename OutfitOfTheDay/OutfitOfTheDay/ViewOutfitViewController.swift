@@ -103,8 +103,4 @@ extension ViewOutfitViewController: UICollectionViewDataSource, UICollectionView
         }
         return UICollectionViewCell()
     }
-    
-//    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
-//        self.navigationController?.pushViewController(EditOutfitViewController(), animated: true)
-//    }
 }

@@ -57,10 +57,7 @@ class CustomViewOutfitCollectionViewCell: UICollectionViewCell {
     
     func setUpConstraints() {
         let padding: CGFloat = 5
-        let oldHeight: CGFloat = 175
         let width: CGFloat = 225
-        let stackPadding: CGFloat = 14
-        let newPadding: CGFloat = 50
         
         let height = contentView.frame.height / 4 - 20
         

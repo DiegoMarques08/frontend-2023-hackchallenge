@@ -45,7 +45,3 @@ struct OutfitObjects: Codable {
     var bottom_id: String
     var shoes_id: String
 }
-
-struct DeleteOutfit: Codable {
-    
-}

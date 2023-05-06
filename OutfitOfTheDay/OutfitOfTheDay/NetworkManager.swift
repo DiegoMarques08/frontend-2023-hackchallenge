@@ -24,12 +24,12 @@ class NetworkManager {
         var request = URLRequest(url: URL(string: url + "/login/")!)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-
+        
         let body: [String: Any] = [
             "username": username,
             "password": password
         ]
-
+        
         request.httpBody = try? JSONSerialization.data(withJSONObject: body, options: .fragmentsAllowed)
         
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
@@ -57,12 +57,12 @@ class NetworkManager {
         var request = URLRequest(url: URL(string: url + "/register/")!)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-
+        
         let body: [String: Any] = [
             "username": username,
             "password": password
         ]
-
+        
         request.httpBody = try? JSONSerialization.data(withJSONObject: body, options: .fragmentsAllowed)
         
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
@@ -89,13 +89,13 @@ class NetworkManager {
         var request = URLRequest(url: URL(string: url + "/clothing/create/")!)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-
+        
         let body: [String: Any] = [
             "classification": type,
             "username": userName,
             "image_data": imageData
         ]
-
+        
         request.httpBody = try? JSONSerialization.data(withJSONObject: body, options: .fragmentsAllowed)
         
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
@@ -122,12 +122,12 @@ class NetworkManager {
         var request = URLRequest(url: URL(string: url + "/clothing/filter/")!)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-
+        
         let body: [String: Any] = [
             "username": userName,
             "classification": type
         ]
-
+        
         request.httpBody = try? JSONSerialization.data(withJSONObject: body, options: .fragmentsAllowed)
         
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
@@ -168,15 +168,15 @@ class NetworkManager {
     
     
     
-
+    
     func createOutfit(head: String, top: String, bottom: String, shoes: String, name: String, completion: @escaping (CreateOutfit) -> Void) {
         
         var request = URLRequest(url: URL(string: url + "/outfit/create/")!)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-
+        
         let body: [String: Any] = [
-//            CHANGE THIS TO THE RIGHT BODY WITH BACKEND
+            //            CHANGE THIS TO THE RIGHT BODY WITH BACKEND
             "name": name,
             "headwear_id": head,
             "top_id": top,
@@ -184,7 +184,7 @@ class NetworkManager {
             "shoes_id": shoes,
             "username": NetworkManager.shared.userName
         ]
-
+        
         request.httpBody = try? JSONSerialization.data(withJSONObject: body, options: .fragmentsAllowed)
         
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
@@ -213,11 +213,11 @@ class NetworkManager {
         var request = URLRequest(url: URL(string: url + "/outfit/list/")!)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-
+        
         let body: [String: Any] = [
             "username": username
         ]
-
+        
         request.httpBody = try? JSONSerialization.data(withJSONObject: body, options: .fragmentsAllowed)
         
         let task = URLSession.shared.dataTask(with: request) { data, response, error in
@@ -231,49 +231,6 @@ class NetworkManager {
                 catch (let error) {
                     print(error.localizedDescription)
                     print("Error when trying to create outfit")
-                }
-            }
-        }
-        task.resume()
-        
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    func deleteOutfit(name: String, completion: @escaping (DeleteOutfit) -> Void) {
-        
-        var request = URLRequest(url: URL(string: url + "/outfit/<int:id>/")!)
-        request.httpMethod = "DELETE"
-        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-
-        let body: [String: Any] = [
-//            CHANGE THIS TO THE RIGHT BODY WITH BACKEND
-            "name??????": name,
-        ]
-
-        request.httpBody = try? JSONSerialization.data(withJSONObject: body, options: .fragmentsAllowed)
-        
-        let task = URLSession.shared.dataTask(with: request) { data, response, error in
-            
-            if let data = data {
-                do {
-                    let decoder = JSONDecoder()
-                    let response = try decoder.decode(DeleteOutfit.self, from: data)
-                    completion(response)
-                }
-                catch (let error) {
-                    print(error.localizedDescription)
-                    print("Error when trying to DELETE outfit")
                 }
             }
         }
