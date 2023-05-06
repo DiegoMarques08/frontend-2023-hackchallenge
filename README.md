@@ -12,6 +12,11 @@ IOS Requirements:
 3. Some form of navigation to navigate between screens—push, present etc. (including the use of protocols and delegates)
 4. Integrate with your Backend’s API - this API must provide some meaningful value to your app.
 
+Backend Requirements:
+1. At least 4 routes (1 must be GET, 1 must be POST, 1 must be DELETE)
+2. At least 2 tables in database with a relationship between them
+3. API specification explaining each implemented route
+4. Implementation of images and/or authentication (only 1 required)
 
 Backend Repo: https://github.com/tjvignos/2023-hack-challenge
 
