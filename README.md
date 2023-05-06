@@ -1,8 +1,19 @@
 # Outfit of The Day
 
-Backend Repo: https://github.com/tjvignos/2023-hack-challenge
-
 "Revamp your style, effortlessly"
+
+The outfit-saving app is designed to make it easy for users to keep track of their fashion choices and organize their wardrobe. With the ability to save photos of clothing items, users can create different outfit combinations and store them for future reference.
+
+One of the app's key features is the ability to name each outfit, allowing users to easily identify and recall what they wore on specific occasions. Additionally, the app makes it simple to sort and categorize outfits based on different criteria such as style, occasion, and weather.
+
+IOS Requirements:
+1. SwiftUI or AutoLayout using NSLayoutConstraint or SnapKit (no storyboards)
+2. At least one UICollectionView, UITableView, or List (SwiftUI) 
+3. Some form of navigation to navigate between screens—push, present etc. (including the use of protocols and delegates)
+4. Integrate with your Backend’s API - this API must provide some meaningful value to your app.
+
+
+Backend Repo: https://github.com/tjvignos/2023-hack-challenge
 
 # Screenshots of App:
 <img src="https://user-images.githubusercontent.com/126121531/236591566-79971c16-cba6-4f32-a33f-c5d29f01f909.jpeg" width="200" height="400">
