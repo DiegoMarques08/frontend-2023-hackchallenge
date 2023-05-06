@@ -1,8 +1,8 @@
-# frontend-2023-hackchallenge
+# Outfit of The Day
 
 Backend Repo: https://github.com/tjvignos/2023-hack-challenge
 
-# Outfit of The Day
+"Revamp your style, effortlessly"
 
 # Screenshots of App:
 <img src="https://user-images.githubusercontent.com/126121531/236591566-79971c16-cba6-4f32-a33f-c5d29f01f909.jpeg" width="200" height="400">
